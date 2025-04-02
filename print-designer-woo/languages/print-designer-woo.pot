@@ -1,0 +1,207 @@
+# Copyright (C) 2024 Your Name
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Print Designer for WooCommerce 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/print-designer-woo\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-01-01T00:00:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.8.1\n"
+"X-Domain: print-designer-woo\n"
+
+#. Plugin Name of the plugin
+msgid "Print Designer for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://github.com/yourusername/print-designer-woo"
+msgstr ""
+
+#. Description of the plugin
+msgid "Product customization tool integrated with WooCommerce"
+msgstr ""
+
+#. Author of the plugin
+msgid "Your Name"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://yoursite.com"
+msgstr ""
+
+#: includes/class-admin-settings.php:24
+msgid "Print Designer Settings"
+msgstr ""
+
+#: includes/class-admin-settings.php:25
+msgid "Print Designer"
+msgstr ""
+
+#: includes/class-admin-settings.php:89
+msgid "General Settings"
+msgstr ""
+
+#: includes/class-admin-settings.php:96
+msgid "Canvas Dimensions"
+msgstr ""
+
+#: includes/class-admin-settings.php:104
+msgid "Upload Settings"
+msgstr ""
+
+#: includes/class-admin-settings.php:112
+msgid "Features"
+msgstr ""
+
+#: includes/class-admin-settings.php:120
+msgid "Auto-save"
+msgstr ""
+
+#: includes/class-admin-settings.php:166
+msgid "Width (px)"
+msgstr ""
+
+#: includes/class-admin-settings.php:170
+msgid "Height (px)"
+msgstr ""
+
+#: includes/class-admin-settings.php:174
+msgid "Set the default canvas dimensions for the designer."
+msgstr ""
+
+#: includes/class-admin-settings.php:186
+msgid "Max Upload Size (MB)"
+msgstr ""
+
+#: includes/class-admin-settings.php:190
+msgid "Allowed File Types"
+msgstr ""
+
+#: includes/class-admin-settings.php:229
+msgid "Enable Mockup Generation"
+msgstr ""
+
+#: includes/class-admin-settings.php:236
+msgid "Enable Clipart Library"
+msgstr ""
+
+#: includes/class-admin-settings.php:243
+msgid "Enable Text Effects"
+msgstr ""
+
+#: includes/class-admin-settings.php:254
+msgid "Auto-save Interval (minutes)"
+msgstr ""
+
+#: includes/class-admin-settings.php:257
+msgid "Set to 0 to disable auto-save."
+msgstr ""
+
+#: includes/class-designer-interface.php:108
+msgid "Add Text"
+msgstr ""
+
+#: includes/class-designer-interface.php:111
+msgid "Upload Image"
+msgstr ""
+
+#: includes/class-designer-interface.php:114
+msgid "Add Clipart"
+msgstr ""
+
+#: includes/class-designer-interface.php:117
+msgid "Save Design"
+msgstr ""
+
+#: includes/class-designer-interface.php:120
+msgid "Load Design"
+msgstr ""
+
+#: includes/class-designer-interface.php:180
+msgid "Custom Design"
+msgstr ""
+
+#: includes/class-designer-interface.php:181
+msgid "Yes"
+msgstr ""
+
+#: includes/class-initializer.php:73
+msgid "Saved Designs"
+msgstr ""
+
+#: includes/class-initializer.php:74
+msgid "Saved Design"
+msgstr ""
+
+#: includes/class-initializer.php:85
+msgid "Mockup Templates"
+msgstr ""
+
+#: includes/class-initializer.php:86
+msgid "Mockup Template"
+msgstr ""
+
+#: includes/class-initializer.php:134
+msgid "Print Designer requires PHP 7.4 or higher."
+msgstr ""
+
+#: includes/class-initializer.php:144
+msgid "Print Designer requires WordPress 5.8 or higher."
+msgstr ""
+
+#: includes/class-initializer.php:154
+msgid "Print Designer requires WooCommerce to be installed and active."
+msgstr ""
+
+#: print-designer-woo.php:186
+msgid "Enable Print Designer"
+msgstr ""
+
+#: print-designer-woo.php:187
+msgid "Enable product customization with Print Designer"
+msgstr ""
+
+#: print-designer-woo.php:192
+msgid "Select the mockup template for this product"
+msgstr ""
+
+#: print-designer-woo.php:199
+msgid "Select a template"
+msgstr ""
+
+#: includes/class-design-storage.php:95
+msgid "You must be logged in to save designs"
+msgstr ""
+
+#: includes/class-design-storage.php:102
+msgid "Invalid design data"
+msgstr ""
+
+#: includes/class-design-storage.php:109
+msgid "Design saved successfully"
+msgstr ""
+
+#: includes/class-design-storage.php:111
+msgid "Failed to save design"
+msgstr ""
+
+#: includes/class-design-storage.php:124
+msgid "You must be logged in to load designs"
+msgstr ""
+
+#: includes/class-design-storage.php:131
+msgid "Invalid design ID"
+msgstr ""
+
+#: includes/class-design-storage.php:138
+msgid "Design not found"
+msgstr ""
+
+#: includes/class-design-storage.php:151
+msgid "You must be logged in to view designs"
+msgstr ""
