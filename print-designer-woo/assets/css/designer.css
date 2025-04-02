@@ -1,0 +1,200 @@
+/* Designer Container */
+.pdw-designer-container {
+    background: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Toolbar */
+.pdw-toolbar {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.pdw-tool {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333;
+    transition: all 0.2s ease;
+}
+
+.pdw-tool:hover {
+    background: #f8f8f8;
+    border-color: #ccc;
+}
+
+.pdw-tool i {
+    font-size: 16px;
+}
+
+/* Workspace */
+.pdw-workspace {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: 20px;
+    min-height: 600px;
+}
+
+/* Canvas Container */
+.pdw-canvas-container {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+#pdw-canvas {
+    border: 1px solid #eee;
+}
+
+/* Properties Panel */
+.pdw-properties-panel {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.pdw-property {
+    margin-bottom: 15px;
+}
+
+.pdw-property label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #666;
+}
+
+.pdw-property input[type="number"],
+.pdw-property input[type="text"],
+.pdw-property input[type="color"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.pdw-property input[type="range"] {
+    width: 100%;
+}
+
+/* Delete Button */
+.pdw-delete-btn {
+    width: 100%;
+    padding: 8px 16px;
+    background: #ff4444;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.2s ease;
+}
+
+.pdw-delete-btn:hover {
+    background: #ff0000;
+}
+
+/* Modal */
+.pdw-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.pdw-modal-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    max-width: 500px;
+    width: 100%;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.pdw-modal h3 {
+    margin: 0 0 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Designs List */
+.pdw-designs-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.pdw-design-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #f8f8f8;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+}
+
+.pdw-design-item button {
+    padding: 6px 12px;
+    background: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.pdw-design-item button:hover {
+    background: #45a049;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .pdw-workspace {
+        grid-template-columns: 1fr;
+    }
+
+    .pdw-toolbar {
+        flex-wrap: wrap;
+    }
+
+    .pdw-tool {
+        flex: 1 1 calc(50% - 10px);
+    }
+}
+
+@media (max-width: 576px) {
+    .pdw-tool {
+        flex: 1 1 100%;
+    }
+}
